@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Kaddio Docs',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -75,6 +75,9 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: 'localeDropdown',
+          }
         ],
       },
       footer: {
