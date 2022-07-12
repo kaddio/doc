@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Kaddio Docs',
   tagline: 'Dinosaurs are cool',
   url: 'https://documentaion.onrender.com',
   baseUrl: '/',
@@ -23,8 +23,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'sv',
+    locales: ['sv', 'en', 'es'],
   },
 
   presets: [
