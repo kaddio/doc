@@ -60,16 +60,18 @@ const config = {
         title: 'Kaddio Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://kaddio.com/img/kaddio-logo.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/api', label: 'API', position: 'left'},
+          {to: '/faq', label: 'FAQ', position: 'left'},
           {
             href: 'https://github.com/kaddio/doc',
             label: 'GitHub',
@@ -77,6 +79,7 @@ const config = {
           },
           {
             type: 'localeDropdown',
+            position: 'right'
           }
         ],
       },
