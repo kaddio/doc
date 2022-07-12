@@ -73,10 +73,15 @@ const config = {
           {to: '/api', label: 'API', position: 'left'},
           {to: '/faq', label: 'FAQ', position: 'left'},
           {
-            href: 'https://github.com/kaddio/doc',
-            label: 'GitHub',
+            href: 'https://demo.kaddio.com',
+            label: 'Demo',
             position: 'right',
           },
+          // {
+          //   href: 'https://github.com/kaddio/doc',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
           {
             type: 'localeDropdown',
             position: 'right'
