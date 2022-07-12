@@ -1,11 +1,10 @@
 ---
+sidebar_label: 'Introduction'
 sidebar_position: 1
 ---
 
-# Introduction
-
-What is **Kaddio**?
-
+# What is Kaddio?
+Kaddio is....
 ## Getting Started
 
 Get started by **creating a new site**.
