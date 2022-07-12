@@ -70,8 +70,8 @@ const config = {
             label: 'Docs',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/api', label: 'API', position: 'left'},
-          {to: '/faq', label: 'FAQ', position: 'left'},
+          // {to: '/api', label: 'API', position: 'left'},
+          // {to: '/faq', label: 'FAQ', position: 'left'},
           {
             href: 'https://demo.kaddio.com',
             label: 'Demo',
