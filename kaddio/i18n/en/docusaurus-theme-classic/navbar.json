@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Kaddio Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Guides": {
+    "message": "Guides",
+    "description": "Navbar item with label Guides"
+  },
+  "item.label.API": {
+    "message": "API",
+    "description": "Navbar item with label API"
+  },
+  "item.label.Support": {
+    "message": "Support",
+    "description": "Navbar item with label Support"
+  },
+  "item.label.Live Demo": {
+    "message": "Live Demo",
+    "description": "Navbar item with label Live Demo"
+  }
+}

@@ -1,5 +1,5 @@
 ---
-title: Markdown page example
+title: Support
 ---
 
 # Markdown page example
