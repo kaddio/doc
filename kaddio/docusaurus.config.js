@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Kaddio Docs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'All help in one place',
   url: 'https://documentaion.onrender.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -64,17 +64,29 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
+            sidebarId: 'tutorialSidebar',
+            type: 'docSidebar',
             docId: 'intro',
             position: 'left',
-            label: 'Docs',
+            label: 'Guides',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          // {to: '/api', label: 'API', position: 'left'},
+          {
+            type: 'docSidebar',
+            to: '/docs/category/api', 
+            label: 'API', 
+            position: 'left',
+            sidebarId: 'api'
+          },
+          {
+            to: 'support', 
+            label: 'Support', 
+            position: 'left'
+          },
           // {to: '/faq', label: 'FAQ', position: 'left'},
           {
             href: 'https://demo.kaddio.com',
-            label: 'Demo',
+            label: 'Live Demo',
             position: 'right',
           },
           // {
